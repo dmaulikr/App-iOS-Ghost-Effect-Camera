@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D7C2971B30FA0400E47C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C2961B30FA0400E47C2E /* main.m */; };
+		75D7C29A1B30FA0400E47C2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C2991B30FA0400E47C2E /* AppDelegate.m */; };
+		75D7C29D1B30FA0400E47C2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C29C1B30FA0400E47C2E /* ViewController.m */; };
+		75D7C2A01B30FA0400E47C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7C29E1B30FA0400E47C2E /* Main.storyboard */; };
+		75D7C2A21B30FA0400E47C2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7C2A11B30FA0400E47C2E /* Images.xcassets */; };
+		75D7C2A51B30FA0400E47C2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7C2A31B30FA0400E47C2E /* LaunchScreen.xib */; };
+		75D7C2B11B30FA0400E47C2E /* Ghost_Effect_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C2B01B30FA0400E47C2E /* Ghost_Effect_CameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D7C2AB1B30FA0400E47C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7C2891B30FA0400E47C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D7C2901B30FA0400E47C2E;
+			remoteInfo = "Ghost Effect Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75D7C2911B30FA0400E47C2E /* Ghost Effect Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Effect Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7C2951B30FA0400E47C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D7C2961B30FA0400E47C2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D7C2981B30FA0400E47C2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D7C2991B30FA0400E47C2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D7C29B1B30FA0400E47C2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75D7C29C1B30FA0400E47C2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75D7C29F1B30FA0400E47C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D7C2A11B30FA0400E47C2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75D7C2A41B30FA0400E47C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75D7C2AA1B30FA0400E47C2E /* Ghost Effect CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghost Effect CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7C2AF1B30FA0400E47C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D7C2B01B30FA0400E47C2E /* Ghost_Effect_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ghost_Effect_CameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D7C28E1B30FA0400E47C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7C2A71B30FA0400E47C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D7C2881B30FA0400E47C2E = {
+			isa = PBXGroup;
+			children = (
+				75D7C2931B30FA0400E47C2E /* Ghost Effect Camera */,
+				75D7C2AD1B30FA0400E47C2E /* Ghost Effect CameraTests */,
+				75D7C2921B30FA0400E47C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D7C2921B30FA0400E47C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C2911B30FA0400E47C2E /* Ghost Effect Camera.app */,
+				75D7C2AA1B30FA0400E47C2E /* Ghost Effect CameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7C2931B30FA0400E47C2E /* Ghost Effect Camera */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C2981B30FA0400E47C2E /* AppDelegate.h */,
+				75D7C2991B30FA0400E47C2E /* AppDelegate.m */,
+				75D7C29B1B30FA0400E47C2E /* ViewController.h */,
+				75D7C29C1B30FA0400E47C2E /* ViewController.m */,
+				75D7C29E1B30FA0400E47C2E /* Main.storyboard */,
+				75D7C2A11B30FA0400E47C2E /* Images.xcassets */,
+				75D7C2A31B30FA0400E47C2E /* LaunchScreen.xib */,
+				75D7C2941B30FA0400E47C2E /* Supporting Files */,
+			);
+			path = "Ghost Effect Camera";
+			sourceTree = "<group>";
+		};
+		75D7C2941B30FA0400E47C2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C2951B30FA0400E47C2E /* Info.plist */,
+				75D7C2961B30FA0400E47C2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D7C2AD1B30FA0400E47C2E /* Ghost Effect CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C2B01B30FA0400E47C2E /* Ghost_Effect_CameraTests.m */,
+				75D7C2AE1B30FA0400E47C2E /* Supporting Files */,
+			);
+			path = "Ghost Effect CameraTests";
+			sourceTree = "<group>";
+		};
+		75D7C2AE1B30FA0400E47C2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C2AF1B30FA0400E47C2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D7C2901B30FA0400E47C2E /* Ghost Effect Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7C2B41B30FA0400E47C2E /* Build configuration list for PBXNativeTarget "Ghost Effect Camera" */;
+			buildPhases = (
+				75D7C28D1B30FA0400E47C2E /* Sources */,
+				75D7C28E1B30FA0400E47C2E /* Frameworks */,
+				75D7C28F1B30FA0400E47C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ghost Effect Camera";
+			productName = "Ghost Effect Camera";
+			productReference = 75D7C2911B30FA0400E47C2E /* Ghost Effect Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D7C2A91B30FA0400E47C2E /* Ghost Effect CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7C2B71B30FA0400E47C2E /* Build configuration list for PBXNativeTarget "Ghost Effect CameraTests" */;
+			buildPhases = (
+				75D7C2A61B30FA0400E47C2E /* Sources */,
+				75D7C2A71B30FA0400E47C2E /* Frameworks */,
+				75D7C2A81B30FA0400E47C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D7C2AC1B30FA0400E47C2E /* PBXTargetDependency */,
+			);
+			name = "Ghost Effect CameraTests";
+			productName = "Ghost Effect CameraTests";
+			productReference = 75D7C2AA1B30FA0400E47C2E /* Ghost Effect CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D7C2891B30FA0400E47C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Hao Wu";
+				TargetAttributes = {
+					75D7C2901B30FA0400E47C2E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					75D7C2A91B30FA0400E47C2E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 75D7C2901B30FA0400E47C2E;
+					};
+				};
+			};
+			buildConfigurationList = 75D7C28C1B30FA0400E47C2E /* Build configuration list for PBXProject "Ghost Effect Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D7C2881B30FA0400E47C2E;
+			productRefGroup = 75D7C2921B30FA0400E47C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D7C2901B30FA0400E47C2E /* Ghost Effect Camera */,
+				75D7C2A91B30FA0400E47C2E /* Ghost Effect CameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D7C28F1B30FA0400E47C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7C2A01B30FA0400E47C2E /* Main.storyboard in Resources */,
+				75D7C2A51B30FA0400E47C2E /* LaunchScreen.xib in Resources */,
+				75D7C2A21B30FA0400E47C2E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7C2A81B30FA0400E47C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D7C28D1B30FA0400E47C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7C29D1B30FA0400E47C2E /* ViewController.m in Sources */,
+				75D7C29A1B30FA0400E47C2E /* AppDelegate.m in Sources */,
+				75D7C2971B30FA0400E47C2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7C2A61B30FA0400E47C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7C2B11B30FA0400E47C2E /* Ghost_Effect_CameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D7C2AC1B30FA0400E47C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D7C2901B30FA0400E47C2E /* Ghost Effect Camera */;
+			targetProxy = 75D7C2AB1B30FA0400E47C2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D7C29E1B30FA0400E47C2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7C29F1B30FA0400E47C2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D7C2A31B30FA0400E47C2E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7C2A41B30FA0400E47C2E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D7C2B21B30FA0400E47C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75D7C2B31B30FA0400E47C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D7C2B51B30FA0400E47C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ghost Effect Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75D7C2B61B30FA0400E47C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ghost Effect Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75D7C2B81B30FA0400E47C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ghost Effect CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghost Effect Camera.app/Ghost Effect Camera";
+			};
+			name = Debug;
+		};
+		75D7C2B91B30FA0400E47C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ghost Effect CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghost Effect Camera.app/Ghost Effect Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D7C28C1B30FA0400E47C2E /* Build configuration list for PBXProject "Ghost Effect Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7C2B21B30FA0400E47C2E /* Debug */,
+				75D7C2B31B30FA0400E47C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D7C2B41B30FA0400E47C2E /* Build configuration list for PBXNativeTarget "Ghost Effect Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7C2B51B30FA0400E47C2E /* Debug */,
+				75D7C2B61B30FA0400E47C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75D7C2B71B30FA0400E47C2E /* Build configuration list for PBXNativeTarget "Ghost Effect CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7C2B81B30FA0400E47C2E /* Debug */,
+				75D7C2B91B30FA0400E47C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D7C2891B30FA0400E47C2E /* Project object */;
+}
