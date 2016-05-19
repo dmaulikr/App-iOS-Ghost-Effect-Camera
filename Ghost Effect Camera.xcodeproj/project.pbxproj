@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7550C2B41B34E7FA0084A8E6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7550C2B31B34E7FA0084A8E6 /* Social.framework */; };
+		7550C2B61B34E8020084A8E6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7550C2B51B34E8020084A8E6 /* Accounts.framework */; };
+		7550C2B81B377A0D0084A8E6 /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2B71B377A0D0084A8E6 /* facebookicon.png */; };
+		7550C2BA1B377B610084A8E6 /* twittericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2B91B377B610084A8E6 /* twittericon.png */; };
+		7550C2BC1B37C5BD0084A8E6 /* camerabutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2BB1B37C5BD0084A8E6 /* camerabutton.png */; };
+		7550C2BE1B37C5C50084A8E6 /* folderbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2BD1B37C5C50084A8E6 /* folderbutton.png */; };
+		7550C2C01B37CB600084A8E6 /* ghostbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2BF1B37CB600084A8E6 /* ghostbutton.png */; };
+		7550C2C21B37CC5B0084A8E6 /* infobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2C11B37CC5B0084A8E6 /* infobutton.png */; };
+		7550C2C41B37CF400084A8E6 /* savebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2C31B37CF400084A8E6 /* savebutton.png */; };
+		7550C2C61B37CF470084A8E6 /* sharebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2C51B37CF470084A8E6 /* sharebutton.png */; };
+		7550C2CB1B37D2D00084A8E6 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2C71B37D2D00084A8E6 /* backbutton.png */; };
+		7550C2CC1B37D2D00084A8E6 /* nextbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2C81B37D2D00084A8E6 /* nextbutton.png */; };
+		7550C2CD1B37D2D00084A8E6 /* restartbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2C91B37D2D00084A8E6 /* restartbutton.png */; };
+		7550C2CE1B37D2D00084A8E6 /* trashbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2CA1B37D2D00084A8E6 /* trashbutton.png */; };
+		7550C2D01B37D5660084A8E6 /* donebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2CF1B37D5660084A8E6 /* donebutton.png */; };
+		7550C2D21B38BBB10084A8E6 /* whitebar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2D11B38BBB10084A8E6 /* whitebar.png */; };
+		7550C2D41B38C6F40084A8E6 /* ghostLib1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7550C2D31B38C6F40084A8E6 /* ghostLib1.png */; };
+		7550C2D91B38D37B0084A8E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7550C2D81B38D37B0084A8E6 /* QuartzCore.framework */; };
+		75D706691B39149700C14DD1 /* ghostLib2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D706681B39149700C14DD1 /* ghostLib2.png */; };
+		75D7066B1B3916AA00C14DD1 /* ghostLib3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D7066A1B3916AA00C14DD1 /* ghostLib3.png */; };
+		75D7066D1B39253500C14DD1 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7066C1B39253500C14DD1 /* Images-2.xcassets */; };
+		75D7066F1B3926C300C14DD1 /* background63.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D7066E1B3926C300C14DD1 /* background63.png */; };
 		75D7C2971B30FA0400E47C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C2961B30FA0400E47C2E /* main.m */; };
 		75D7C29A1B30FA0400E47C2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C2991B30FA0400E47C2E /* AppDelegate.m */; };
 		75D7C29D1B30FA0400E47C2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C29C1B30FA0400E47C2E /* ViewController.m */; };
 		75D7C2A01B30FA0400E47C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7C29E1B30FA0400E47C2E /* Main.storyboard */; };
-		75D7C2A21B30FA0400E47C2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7C2A11B30FA0400E47C2E /* Images.xcassets */; };
 		75D7C2A51B30FA0400E47C2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7C2A31B30FA0400E47C2E /* LaunchScreen.xib */; };
 		75D7C2B11B30FA0400E47C2E /* Ghost_Effect_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C2B01B30FA0400E47C2E /* Ghost_Effect_CameraTests.m */; };
+		75D7C2BB1B3240DD00E47C2E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7C2BA1B3240DD00E47C2E /* CoreImage.framework */; };
+		75D7C2BD1B3240E400E47C2E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7C2BC1B3240E400E47C2E /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +50,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7550C2B31B34E7FA0084A8E6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7550C2B51B34E8020084A8E6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7550C2B71B377A0D0084A8E6 /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookicon.png; path = "../../../../Pictures/xcode images/facebookicon.png"; sourceTree = "<group>"; };
+		7550C2B91B377B610084A8E6 /* twittericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twittericon.png; path = "../../../../Pictures/xcode images/twittericon.png"; sourceTree = "<group>"; };
+		7550C2BB1B37C5BD0084A8E6 /* camerabutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camerabutton.png; path = "../../../../Pictures/xcode images/camerabutton.png"; sourceTree = "<group>"; };
+		7550C2BD1B37C5C50084A8E6 /* folderbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folderbutton.png; path = "../../../../Pictures/xcode images/folderbutton.png"; sourceTree = "<group>"; };
+		7550C2BF1B37CB600084A8E6 /* ghostbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ghostbutton.png; path = "../../../../Pictures/xcode images/ghostbutton.png"; sourceTree = "<group>"; };
+		7550C2C11B37CC5B0084A8E6 /* infobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infobutton.png; path = "../../../../Pictures/xcode images/infobutton.png"; sourceTree = "<group>"; };
+		7550C2C31B37CF400084A8E6 /* savebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = savebutton.png; path = "../../../../Pictures/xcode images/savebutton.png"; sourceTree = "<group>"; };
+		7550C2C51B37CF470084A8E6 /* sharebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sharebutton.png; path = "../../../../Pictures/xcode images/sharebutton.png"; sourceTree = "<group>"; };
+		7550C2C71B37D2D00084A8E6 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton.png; path = "../../../../Pictures/xcode images/backbutton.png"; sourceTree = "<group>"; };
+		7550C2C81B37D2D00084A8E6 /* nextbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextbutton.png; path = "../../../../Pictures/xcode images/nextbutton.png"; sourceTree = "<group>"; };
+		7550C2C91B37D2D00084A8E6 /* restartbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restartbutton.png; path = "../../../../Pictures/xcode images/restartbutton.png"; sourceTree = "<group>"; };
+		7550C2CA1B37D2D00084A8E6 /* trashbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trashbutton.png; path = "../../../../Pictures/xcode images/trashbutton.png"; sourceTree = "<group>"; };
+		7550C2CF1B37D5660084A8E6 /* donebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donebutton.png; path = "../../../../Pictures/xcode images/donebutton.png"; sourceTree = "<group>"; };
+		7550C2D11B38BBB10084A8E6 /* whitebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whitebar.png; path = "../../../../Pictures/xcode images/whitebar.png"; sourceTree = "<group>"; };
+		7550C2D31B38C6F40084A8E6 /* ghostLib1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ghostLib1.png; path = "../../../../Pictures/xcode images/ghostLib1.png"; sourceTree = "<group>"; };
+		7550C2D81B38D37B0084A8E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75D706681B39149700C14DD1 /* ghostLib2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ghostLib2.png; path = "../../../../Pictures/xcode images/ghostLib2.png"; sourceTree = "<group>"; };
+		75D7066A1B3916AA00C14DD1 /* ghostLib3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ghostLib3.png; path = "../../../../Pictures/xcode images/ghostLib3.png"; sourceTree = "<group>"; };
+		75D7066C1B39253500C14DD1 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		75D7066E1B3926C300C14DD1 /* background63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background63.png; path = "../../../../Pictures/xcode images/background63.png"; sourceTree = "<group>"; };
 		75D7C2911B30FA0400E47C2E /* Ghost Effect Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Effect Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D7C2951B30FA0400E47C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D7C2961B30FA0400E47C2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +80,12 @@
 		75D7C29B1B30FA0400E47C2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75D7C29C1B30FA0400E47C2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75D7C29F1B30FA0400E47C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75D7C2A11B30FA0400E47C2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75D7C2A41B30FA0400E47C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		75D7C2AA1B30FA0400E47C2E /* Ghost Effect CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghost Effect CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D7C2AF1B30FA0400E47C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D7C2B01B30FA0400E47C2E /* Ghost_Effect_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ghost_Effect_CameraTests.m; sourceTree = "<group>"; };
+		75D7C2BA1B3240DD00E47C2E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		75D7C2BC1B3240E400E47C2E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +93,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7550C2D91B38D37B0084A8E6 /* QuartzCore.framework in Frameworks */,
+				7550C2B61B34E8020084A8E6 /* Accounts.framework in Frameworks */,
+				7550C2B41B34E7FA0084A8E6 /* Social.framework in Frameworks */,
+				75D7C2BD1B3240E400E47C2E /* AssetsLibrary.framework in Frameworks */,
+				75D7C2BB1B3240DD00E47C2E /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,11 @@
 		75D7C2881B30FA0400E47C2E = {
 			isa = PBXGroup;
 			children = (
+				7550C2D81B38D37B0084A8E6 /* QuartzCore.framework */,
+				7550C2B51B34E8020084A8E6 /* Accounts.framework */,
+				7550C2B31B34E7FA0084A8E6 /* Social.framework */,
+				75D7C2BC1B3240E400E47C2E /* AssetsLibrary.framework */,
+				75D7C2BA1B3240DD00E47C2E /* CoreImage.framework */,
 				75D7C2931B30FA0400E47C2E /* Ghost Effect Camera */,
 				75D7C2AD1B30FA0400E47C2E /* Ghost Effect CameraTests */,
 				75D7C2921B30FA0400E47C2E /* Products */,
@@ -86,8 +142,8 @@
 				75D7C29B1B30FA0400E47C2E /* ViewController.h */,
 				75D7C29C1B30FA0400E47C2E /* ViewController.m */,
 				75D7C29E1B30FA0400E47C2E /* Main.storyboard */,
-				75D7C2A11B30FA0400E47C2E /* Images.xcassets */,
 				75D7C2A31B30FA0400E47C2E /* LaunchScreen.xib */,
+				75D7066C1B39253500C14DD1 /* Images-2.xcassets */,
 				75D7C2941B30FA0400E47C2E /* Supporting Files */,
 			);
 			path = "Ghost Effect Camera";
@@ -96,6 +152,24 @@
 		75D7C2941B30FA0400E47C2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7550C2D11B38BBB10084A8E6 /* whitebar.png */,
+				7550C2CF1B37D5660084A8E6 /* donebutton.png */,
+				7550C2C71B37D2D00084A8E6 /* backbutton.png */,
+				7550C2C81B37D2D00084A8E6 /* nextbutton.png */,
+				7550C2C91B37D2D00084A8E6 /* restartbutton.png */,
+				7550C2CA1B37D2D00084A8E6 /* trashbutton.png */,
+				7550C2C51B37CF470084A8E6 /* sharebutton.png */,
+				7550C2C31B37CF400084A8E6 /* savebutton.png */,
+				7550C2C11B37CC5B0084A8E6 /* infobutton.png */,
+				7550C2BD1B37C5C50084A8E6 /* folderbutton.png */,
+				7550C2BF1B37CB600084A8E6 /* ghostbutton.png */,
+				7550C2BB1B37C5BD0084A8E6 /* camerabutton.png */,
+				7550C2B71B377A0D0084A8E6 /* facebookicon.png */,
+				7550C2B91B377B610084A8E6 /* twittericon.png */,
+				7550C2D31B38C6F40084A8E6 /* ghostLib1.png */,
+				75D706681B39149700C14DD1 /* ghostLib2.png */,
+				75D7066A1B3916AA00C14DD1 /* ghostLib3.png */,
+				75D7066E1B3926C300C14DD1 /* background63.png */,
 				75D7C2951B30FA0400E47C2E /* Info.plist */,
 				75D7C2961B30FA0400E47C2E /* main.m */,
 			);
@@ -168,6 +242,7 @@
 				TargetAttributes = {
 					75D7C2901B30FA0400E47C2E = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9ZFUDK8B54;
 					};
 					75D7C2A91B30FA0400E47C2E = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,9 +274,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7550C2C41B37CF400084A8E6 /* savebutton.png in Resources */,
+				75D7066F1B3926C300C14DD1 /* background63.png in Resources */,
 				75D7C2A01B30FA0400E47C2E /* Main.storyboard in Resources */,
+				7550C2C21B37CC5B0084A8E6 /* infobutton.png in Resources */,
+				7550C2D41B38C6F40084A8E6 /* ghostLib1.png in Resources */,
+				7550C2D01B37D5660084A8E6 /* donebutton.png in Resources */,
+				7550C2CE1B37D2D00084A8E6 /* trashbutton.png in Resources */,
+				7550C2BE1B37C5C50084A8E6 /* folderbutton.png in Resources */,
+				75D7066B1B3916AA00C14DD1 /* ghostLib3.png in Resources */,
+				7550C2D21B38BBB10084A8E6 /* whitebar.png in Resources */,
+				75D7066D1B39253500C14DD1 /* Images-2.xcassets in Resources */,
+				75D706691B39149700C14DD1 /* ghostLib2.png in Resources */,
 				75D7C2A51B30FA0400E47C2E /* LaunchScreen.xib in Resources */,
-				75D7C2A21B30FA0400E47C2E /* Images.xcassets in Resources */,
+				7550C2C01B37CB600084A8E6 /* ghostbutton.png in Resources */,
+				7550C2CB1B37D2D00084A8E6 /* backbutton.png in Resources */,
+				7550C2BC1B37C5BD0084A8E6 /* camerabutton.png in Resources */,
+				7550C2CC1B37D2D00084A8E6 /* nextbutton.png in Resources */,
+				7550C2B81B377A0D0084A8E6 /* facebookicon.png in Resources */,
+				7550C2C61B37CF470084A8E6 /* sharebutton.png in Resources */,
+				7550C2BA1B377B610084A8E6 /* twittericon.png in Resources */,
+				7550C2CD1B37D2D00084A8E6 /* restartbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +440,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Ghost Effect Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +453,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Ghost Effect Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +515,7 @@
 				75D7C2B61B30FA0400E47C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D7C2B71B30FA0400E47C2E /* Build configuration list for PBXNativeTarget "Ghost Effect CameraTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +524,7 @@
 				75D7C2B91B30FA0400E47C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
